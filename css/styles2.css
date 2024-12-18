@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(53, 60, 135);
+    background-color: rgb(134, 204, 224);
+
+.back-to-top {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: #000;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top a:hover {
+    background-color: #d0d0d0;
+}
+
+}
+body { background-color: #b0c4de; /* Blue-grey background */ 
+padding-bottom: 60px; /* Extra space at the bottom of the page */
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    color: rgb(179, 96, 193);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited {
+    color: blue;
+}
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+
+.homebg {
+    background-image: url('../images/Homer\ Simpson\ Background.png');
+    background-position: top right;
+}
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+
+    /* border: 1px solid rebeccapurple; */
+}
+/* We put padding on it */
+.box2 {
+    padding: 5px;
+}
+/* We made a margin */
+.box3 {
+    margin: 50px;
+}
+
+body {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    /* background-color: #cccccc; */
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #555555;
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+}
+
+
+
+
+/*image*/
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    padding-bottom: 60px; /* Extra space at the bottom of the page */
+}
+
+.container {
+    text-align: center;
+}
+
+.my-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/*Youtube video*/
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    padding-bottom: 60px; /* Extra space at the bottom of the page */
+}
+
+.container {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 10px;
+}
